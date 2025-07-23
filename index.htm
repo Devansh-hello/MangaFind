@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>MangaFind</title>
+</head>
+<body class="flex flex-col gap-6">
+    <div class="flex flex-row justify-center items-center p-2 shadow-md shadow-black bg-black">
+        <h1 class="text-white">MangaFind</h1>
+    </div>
+
+    <div class="flex flex-row justify-center items-center gap-3">
+        
+            <input type="text" id ="searchInput" placeholder="Enter Manga Name" class="border-[0.5px]">
+            <button type="submit" onclick="createCard()">search</button>
+        
+        
+    </div>
+    <div id="card-body" class="flex flex-wrap flex-row min-w-screen p-4 items-center justify-center">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
